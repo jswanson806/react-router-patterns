@@ -1,0 +1,57 @@
+.DogDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.DogDetails-image-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50vw;
+}
+
+.DogDetails-image-container img {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.DogDetails-info {
+    flex: 1 1 auto;
+}
+
+.DogDetails-info ul{
+    text-align: left;
+}
+
+.DogDetails-info h3 {
+    margin-top: 0;
+}
+  
+.DogDetails-nav {
+  margin-top: 1rem;
+}
+
+.DogDetails-nav nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DogDetails-nav a{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
