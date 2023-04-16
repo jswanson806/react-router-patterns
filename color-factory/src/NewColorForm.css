@@ -1,0 +1,47 @@
+
+.NewColorForm {
+    display: flex;
+    background-color: slategray;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.NewColorForm-form{
+    display: flex;
+    background-color: slateblue;
+    flex-direction: row;
+    justify-content: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 5em;
+    font-weight: bold;
+}
+
+.NewColorForm-form input{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.NewColorForm-button{
+    padding-top: 10px;
+}
+
+.NewColorForm-button button{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0.5rem 1rem;
+    background-color: slategray;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
